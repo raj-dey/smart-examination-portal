@@ -1,0 +1,164 @@
+:root {
+  /* Exact colors extracted from your image */
+  --brand-blue: #544bfa;
+  --brand-blue-light: #f0f0fe;
+  --brand-blue-glow: rgba(84, 75, 250, 0.5);
+
+  --brand-green: #3aa676;
+  --brand-green-light: #ecfdf5;
+  --brand-green-glow: rgba(58, 166, 118, 0.5);
+
+  --text-main: #1e2432;
+  --text-muted: #64748b;
+  --border-light: #f1f5f9;
+}
+
+.landing-wrapper {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fafbfc;/* Extremely light off-white background */
+  font-family: system-ui, -apple-system, sans-serif;
+  padding: 1.5rem;
+}
+
+.content-container {
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Main Logo Glow Effect */
+.main-logo-container {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.main-logo-glow {
+  position: absolute;
+  inset: -15px;
+  background-color: var(--brand-blue);
+  border-radius: 2rem;
+  filter: blur(28px);
+  opacity: 0.35;
+  animation: breathe 4s ease-in-out infinite;
+}
+
+@keyframes breathe {
+  0% {
+    transform: scale(0.9);
+    opacity: 0.3;
+  }
+
+  50% {
+    transform: scale(1.1);
+    opacity: 0.5;
+  }
+
+  100% {
+    transform: scale(0.9);
+    opacity: 0.3;
+  }
+}
+
+.main-logo-box {
+  position: relative;
+  background-color: var(--brand-blue);
+  color: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 32px;
+  /* Smooth squircle shape */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+/* Grid & Cards */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  width: 100%;
+  margin-top: 3.5rem;
+}
+
+.role-card {
+  background: white;
+  padding: 3rem 2.5rem;
+  border-radius: 40px;
+  /* Deep rounded corners from image */
+  border: 1.5px solid var(--border-light);
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  text-align: left;
+}
+
+.role-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 30px 60px -15px rgba(0, 0, 0, 0.05);
+}
+
+/* Specific Card Hover Borders */
+.role-card.student:hover {
+  border-color: var(--brand-blue);
+}
+
+.role-card.teacher:hover {
+  border-color: var(--brand-green);
+}
+
+/* Icon Boxes inside Cards */
+.icon-box {
+  width: 64px;
+  height: 64px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  transition: all 0.4s ease;
+}
+
+.icon-box.student {
+  background-color: var(--brand-blue-light);
+  color: var(--brand-blue);
+}
+
+.icon-box.teacher {
+  background-color: var(--brand-green-light);
+  color: var(--brand-green);
+}
+
+/* Card Hover Icon Glow Effects */
+.role-card.student:hover .icon-box.student {
+  box-shadow: 0 0 25px var(--brand-blue-glow);
+  transform: scale(1.05);
+}
+
+.role-card.teacher:hover .icon-box.teacher {
+  box-shadow: 0 0 25px var(--brand-green-glow);
+  transform: scale(1.05);
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .cards-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-top: 2.5rem;
+  }
+
+  .role-card {
+    padding: 2.5rem 2rem;
+  }
+
+  h1 {
+    font-size: 2.5rem !important;
+  }
+}
