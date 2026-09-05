@@ -6,70 +6,67 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.2-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Firebase](https://img.shields.io/badge/Firebase-v12-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com/)
 [![Google Gemini](https://img.shields.io/badge/Google_Gemini-2.5_Flash-4285F4?style=for-the-badge&logo=google-gemini&logoColor=white)](https://ai.google.dev/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 
-> **Smart Examination Portal** is an open-source, AI-powered online examination and academic assessment ecosystem built with React 19, Vite, Tailwind CSS, Google Firebase, and Google Gemini AI. Engineered to provide secure, proctored virtual testing rooms with real-time anti-cheat detection, instant automated grading, and role-based permissions for university faculties.
+> **A next-generation, cloud-native Computer Based Test (CBT) and online examination management system designed for universities, colleges, and schools. Built with React 19, Firebase Firestore, Google Gemini AI, and proctored anti-cheat integrity controls.**
 
 ---
 
-## 🌐 Live Deployment & Demo
+## 🌐 Live Hosted Web Application
 
-Access the live cloud production deployment directly:
+Experience the live, production-ready portal in action:
 
 ### 🔗 **[https://raj-dey.github.io/smart-examination-portal/](https://raj-dey.github.io/smart-examination-portal/)**
 
 ---
 
-## 🔍 Why Smart Examination Portal? (Project Overview)
+## 📖 Overview & Problem Statement
 
-Traditional online testing platforms struggle with **academic integrity**, **time-consuming manual test creation**, and **fragmented departmental data**. 
+Conducting remote or digital academic examinations poses significant challenges: **academic dishonesty (tab switching, copy-pasting)**, **time-consuming manual question authoring**, **complex multi-department scheduling**, and **delayed manual paper evaluation**.
 
-**Smart Examination Portal** solves these challenges with:
-- **Intelligent Proctoring**: Automated tab-switch surveillance, time penalties, right-click and copy-paste interception prevent unauthorized web lookups.
-- **AI-Powered Evaluation & Authoring**: Faculty and students can generate full syllabus-aligned practice tests in seconds through Google Gemini 2.5 Flash.
-- **PIN-Gated Security**: Invigilator-issued 6-digit access PINs ensure only authorized students in specific classrooms or schedules can start assessments.
-- **Departmental Multi-Tenancy**: Granular organization across 10 academic faculties, multiple degree programs, semesters (1–8), and sections (A–E).
-- **Serverless Cloud Scale**: Built entirely on Google Firebase Firestore and Authentication for real-time responsiveness and zero-maintenance scalability.
+**University Quiz Pro (Smart Examination Portal)** solves these challenges through a unified, high-performance web platform:
+- **Zero-Install Cloud Portal**: Runs effortlessly in any modern browser on laptops, desktops, and tablets without requiring specialized software installations.
+- **Proctored Anti-Cheat Engine**: Protects examination integrity by detecting tab switching, enforcing penalties (-30s deductions & strikes), and blocking right-clicks and clipboard operations.
+- **Automated AI Question Authoring**: Leverages Google Gemini 2.5 Flash to automatically formulate topic-specific, curriculum-aligned multiple-choice questions in seconds.
+- **Instantaneous Ledger & Grading**: Automatically computes scores upon submission and syncs results to Firestore in real-time, eliminating grading overhead.
+- **Role-Segregated Dashboards**: Delivers personalized, securely partitioned interfaces for **Students**, **Teachers**, and **Super Administrators**.
 
 ---
 
-## 🏷️ Search Keywords & Discoverability Tags
+## 🎯 Target Use Cases
 
-If you are searching on Google or GitHub for modern assessment portals, this repository covers:
-
-```text
-online-examination-system • smart-examination-portal • proctored-exam-system • anti-cheat-proctoring
-react-quiz-app • firebase-examination-portal • gemini-ai-quiz • university-exam-management
-student-assessment-platform • automated-grading-system • exam-security • online-test-portal
-```
+- 🏛️ **Universities & Colleges**: Mid-term evaluations, semester end assessments, department-specific tests.
+- 🏫 **K-12 Schools & Academies**: Weekly chapter assessments, pop quizzes, and exam prep.
+- 💻 **Coding Bootcamps & EdTech**: Quick candidate knowledge screening and skill assessments.
+- 🤖 **Self-Paced Student Study**: On-demand AI quiz generation across any subject for exam practice.
 
 ---
 
 ## 📑 Table of Contents
 
-- [Why Smart Examination Portal?](#-why-smart-examination-portal-project-overview)
-- [Search Keywords & Tags](#-search-keywords--discoverability-tags)
-- [Core Highlights](#-core-highlights)
-- [Role-Based Architecture](#-role-based-architecture)
-  - [Student Portal](#1-student-portal)
-  - [Teacher / Invigilator Portal](#2-teacher--invigilator-portal)
-  - [Super Administrator Control Center](#3-super-administrator-control-center)
-- [Proctoring & Anti-Cheat System](#-proctoring--anti-cheat-system)
-- [AI Quiz Generation Engine](#-ai-quiz-generation-engine)
-- [Technology Stack](#-technology-stack)
-- [Project Architecture](#-project-architecture)
-- [Getting Started](#-getting-started)
+- [⚡ Core Highlights](#-core-highlights)
+- [👥 Role-Based Architecture](#-role-based-architecture)
+  - [1. Student Portal](#1-student-portal)
+  - [2. Teacher / Invigilator Portal](#2-teacher--invigilator-portal)
+  - [3. Super Administrator Control Center](#3-super-administrator-control-center)
+- [🛡️ Proctoring & Anti-Cheat System](#-proctoring--anti-cheat-system)
+- [🤖 AI Quiz Generation Engine](#-ai-quiz-generation-engine)
+- [🛠️ Technology Stack](#-technology-stack)
+- [📂 Project Architecture](#-project-architecture)
+- [🚀 Getting Started](#-getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation & Setup](#installation--setup)
   - [Environment Variables](#environment-variables)
   - [Running Locally](#running-locally)
-- [Deployment Guide](#-deployment-guide)
-- [Author & Acknowledgments](#-author--acknowledgments)
+- [🚢 Deployment Guide](#-deployment-guide)
+- [🔍 SEO & Search Discovery Tags](#-seo--search-discovery-tags)
+- [👨‍💻 Author & Acknowledgments](#-author--acknowledgments)
 
 ---
 
 ## ⚡ Core Highlights
 
-- **Role-Based Workflows**: Independent, secured dashboards for **Students**, **Teachers**, and **Super Administrators**.
+- **Role-Based Access Control**: Tailored workflows for **Students**, **Teachers**, and **Super Administrators**.
 - **Proctored Assessments**: Strict anti-cheat monitoring with automated tab-switch detection, time penalties, and strike management.
 - **PIN-Protected Exams**: Assessments require randomized 6-digit invigilator PINs for academic integrity.
 - **Gemini AI Generator**: Generates 10-question structured assessments in real-time for any subject using Google Gemini 2.5 Flash.
@@ -254,6 +251,24 @@ This executes:
 
 ---
 
+## 🔍 SEO & Search Discovery Tags
+
+To help developers, universities, and students discover this open-source project across Google and GitHub searches, this repository covers the following core topics and technologies:
+
+### 🏷️ Topic Tags
+`smart-examination-portal` · `online-examination-system` · `cbt-exam-system` · `proctoring-software` · `anti-cheat-exam` · `react-quiz-app` · `firebase-quiz` · `gemini-ai-quiz` · `university-portal` · `student-assessment` · `automated-grading` · `quiz-management-system` · `react-19` · `vite` · `tailwind-css` · `google-gemini`
+
+### 🔎 Search Keywords
+- *Smart Examination Portal React Firebase*
+- *Online Examination System with Anti Cheat Proctoring*
+- *Computer Based Test (CBT) Web Application Open Source*
+- *University Quiz Management System with Admin Dashboard*
+- *AI Quiz Generator using Google Gemini 2.5 Flash API*
+- *Online Assessment System with Tab Switch Detection*
+- *Role Based Exam System for Students, Teachers, and Admin*
+
+---
+
 ## 👨‍💻 Author & Acknowledgments
 
 - **Lead Developer**: **Raj Dey**
@@ -263,5 +278,5 @@ This executes:
 ---
 
 <p align="center">
-  <sub>Built with ❤️ for universities, educators, and students.</sub>
+  <sub>Built with ❤️ for universities, educators, and students worldwide.</sub>
 </p>
