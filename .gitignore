@@ -31,5 +31,3 @@ dist-ssr
 # Firebase Service Account Key
 serviceAccountKey.json
 
-# SuperAdmin dashboard (sensitive)
-src/views/SuperAdminDashboard.jsx

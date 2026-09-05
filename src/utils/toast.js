@@ -40,7 +40,8 @@ export const getCleanErrorMessage = (error) => {
     'auth/popup-blocked': 'Sign-in popup was blocked by your browser. Please allow popups for this site.',
     'auth/operation-not-allowed': 'This sign-in option is currently disabled.',
     'auth/requires-recent-login': 'For security, please sign out and log back in before doing this action.',
-    
+    'auth/unauthorized-domain': 'This website domain is not authorized in Firebase Console! Go to Firebase Console -> Authentication -> Settings -> Authorized Domains and add your domain.',
+        
     // Firestore errors
     'permission-denied': 'Access Denied: You do not have permission to perform this action.',
     'unavailable': 'Database is temporarily offline. Please check your network connection.',
