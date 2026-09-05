@@ -1,7 +1,22 @@
 {
-  "name": "univ-quiz-pro",
+  "name": "smart-examination-portal",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Smart Examination Portal — An AI-powered, proctored university examination platform built with React 19, Firebase, and Google Gemini AI.",
+  "author": "Raj Dey",
+  "homepage": "https://raj-dey.github.io/smart-examination-portal/",
+  "keywords": [
+    "smart-examination-portal",
+    "online-exam-system",
+    "proctored-examination",
+    "anti-cheat",
+    "react19",
+    "vite",
+    "firebase",
+    "gemini-ai",
+    "quiz-portal",
+    "assessment-platform"
+  ],
   "type": "module",
   "scripts": {
     "dev": "vite",

@@ -7,20 +7,47 @@
 [![Firebase](https://img.shields.io/badge/Firebase-v12-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com/)
 [![Google Gemini](https://img.shields.io/badge/Google_Gemini-2.5_Flash-4285F4?style=for-the-badge&logo=google-gemini&logoColor=white)](https://ai.google.dev/)
 
-An enterprise-grade, role-based smart examination portal engineered for universities, academic institutions, and educators. Featuring proctored assessment environments, automated grading, Gemini AI quiz generation, and granular administrative controls.
+> **Smart Examination Portal** is an open-source, AI-powered online examination and academic assessment ecosystem built with React 19, Vite, Tailwind CSS, Google Firebase, and Google Gemini AI. Engineered to provide secure, proctored virtual testing rooms with real-time anti-cheat detection, instant automated grading, and role-based permissions for university faculties.
 
 ---
 
-## 🌐 Live Deployment
+## 🌐 Live Deployment & Demo
 
-Access the production deployment directly here:
+Access the live cloud production deployment directly:
 
 ### 🔗 **[https://raj-dey.github.io/smart-examination-portal/](https://raj-dey.github.io/smart-examination-portal/)**
 
 ---
 
+## 🔍 Why Smart Examination Portal? (Project Overview)
+
+Traditional online testing platforms struggle with **academic integrity**, **time-consuming manual test creation**, and **fragmented departmental data**. 
+
+**Smart Examination Portal** solves these challenges with:
+- **Intelligent Proctoring**: Automated tab-switch surveillance, time penalties, right-click and copy-paste interception prevent unauthorized web lookups.
+- **AI-Powered Evaluation & Authoring**: Faculty and students can generate full syllabus-aligned practice tests in seconds through Google Gemini 2.5 Flash.
+- **PIN-Gated Security**: Invigilator-issued 6-digit access PINs ensure only authorized students in specific classrooms or schedules can start assessments.
+- **Departmental Multi-Tenancy**: Granular organization across 10 academic faculties, multiple degree programs, semesters (1–8), and sections (A–E).
+- **Serverless Cloud Scale**: Built entirely on Google Firebase Firestore and Authentication for real-time responsiveness and zero-maintenance scalability.
+
+---
+
+## 🏷️ Search Keywords & Discoverability Tags
+
+If you are searching on Google or GitHub for modern assessment portals, this repository covers:
+
+```text
+online-examination-system • smart-examination-portal • proctored-exam-system • anti-cheat-proctoring
+react-quiz-app • firebase-examination-portal • gemini-ai-quiz • university-exam-management
+student-assessment-platform • automated-grading-system • exam-security • online-test-portal
+```
+
+---
+
 ## 📑 Table of Contents
 
+- [Why Smart Examination Portal?](#-why-smart-examination-portal-project-overview)
+- [Search Keywords & Tags](#-search-keywords--discoverability-tags)
 - [Core Highlights](#-core-highlights)
 - [Role-Based Architecture](#-role-based-architecture)
   - [Student Portal](#1-student-portal)
